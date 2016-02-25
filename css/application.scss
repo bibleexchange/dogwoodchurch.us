@@ -1,0 +1,411 @@
+$font-sans: 'lato';
+
+$blue: #113C89;
+$red: #D20C07;
+
+body {
+	font-size: 62.5%;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+ html, body {
+	height: 100%;
+}
+
+footer {
+	color: #666;
+	background: rgb(238, 238, 238);
+	padding: 17px 0 18px 0;
+	text-align:center;
+	margin-top:50px;
+}
+footer a {
+	color: #999;
+}
+footer a:hover {
+	color: #efefef;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -63px;
+}
+.push {
+	height: 63px;
+}
+
+#headline {
+	text-align:center;
+	background-color:transparent;
+}
+#headline h2 {
+	color:black;
+}
+#headline #large-logo{
+	margin-right:30px;
+	float:left;
+	top:50px;
+	left:0;
+	width:50%;
+}
+
+/* Customize Navbar */
+
+.navbar-inverse {
+	background-color:#337ab7;
+	border:none;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
+
+.navbar-header .navbar-brand , .navbar-inverse .navbar-nav>li>a{
+	color:#fff;
+}
+
+.navbar-header .navbar-brand:hover {
+	color:#FF9900;
+}
+
+/* end Customize Navbar */
+
+h1, h2, h3, h4, h5, p, blockquote, a, ol, ul, li {
+	font-family: $font-sans;
+}
+
+p, ul, ol, li, a {
+	font-size: 1.1rem;
+}
+
+h2 {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	padding-top: .4rem;
+	font-family: 'lato';
+	font-size: 2.6rem;
+	color: $red;
+	display: block;
+	border-top: $red solid 2px;
+	text-align: center;
+	font-weight: normal;
+}
+h2 a {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	padding-top: .4rem;
+	font-family: 'lato';
+	font-size: 2.6rem;
+	color: $red;
+	text-align: center;
+	font-weight: normal;
+}
+h3 {
+	color: $blue;
+	font-size: 1.8rem;
+}
+h4 {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.hero-banner {
+	background: url('/images/elkton-main-street.jpg') no-repeat left center;
+	h1 {
+		display: none;
+	}
+}
+#hero-logo {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#down-arrows {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-name: bounce;
+}
+#dwn {
+	stroke: $blue;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.blur {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255,255,255, .8);
+	padding-top: 20vh;
+}
+.church-bg {
+    height: 100%;
+    overflow: hidden;
+    background: url('/images/church-outside.jpeg') no-repeat center;
+    background-size: cover;
+}
+.content-square {
+	background-color: rgba(255,255,255, 0.8);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 2rem;
+	h2 {
+		margin-left: -2rem;
+		margin-right: -2rem;
+		margin-top: 0;
+	}
+	ul {
+		list-style: none;
+		-webkit-padding-start: 0;
+	}
+	li {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+}
+.frosted {
+	background-color: rgba(255,255,255, 0.8);
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding-bottom: 2rem;
+	h2 {
+		margin-top: 0;
+	}
+}
+.frosted::before {
+	content: '';
+	height: 4rem;
+	background-color: #fff;
+	display: block;
+}
+
+#address {
+	text-align:center;
+	font-weight:bold;
+	font-size:150%;
+}
+
+#principle-definition {
+	width:325px;
+	float:right;
+}
+
+#second-about-image {
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+
+#second-about-list {
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+
+@media(min-width:600px){
+	
+	#second-about-image {
+		width:50%;
+	}
+	
+	#second-about-list {
+		width:50%;
+	}
+	
+}
+
+#cirriculum-collage{
+	width:100%;
+	margin-top: 30px;
+}
+
+/*h2 {
+	color: #fff;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	padding-left:30px;
+}*/
+
+.header-box {
+  position: relative;
+}
+
+.skew h2 {
+	padding-bottom:10px;
+}
+
+.skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: -20px;
+  overflow: visible;
+  width: 105%;
+  height: 80px;
+  background: #DD1E36;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+  
+}
+
+/* prevents accidental zooming of google map */
+.overlay {
+   background:transparent; 
+   position:absolute;
+   float:left;
+   width:95%;
+   height:480px; /* your iframe height */
+   top:480x;  /* your iframe height */
+   margin-top:-480x;  /* your iframe height */
+   z-index:100;
+}
+
+#facebook{
+	background-image:url('/images/logo-transparent.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:95%;
+}
+
+.thumbnail-2 {
+	height:35%;
+	overflow:hidden;
+	margin-top:40px;
+}
+.thumbnail-2 img {
+	height:100%;
+}
+
+.text-muted a {
+	text-decoration:underline;
+}
+.text-muted a:hover {
+	color:black;
+}
+
+.caption {
+    position: absolute;
+    bottom:0;
+	left:0;
+	text-align:center;
+    width: 90%;
+	color:white;
+	text-decoration:italic;
+	background:rgba(0, 0, 0, .5);
+	padding:0;
+	margin-left:15px;
+	margin-right:35px;
+	margin-top:0;
+}
+
+h3#thumbnail-2-label {
+	padding:0;
+	line-height:80%;
+	font-size:130%;
+	font-weight:bold;
+}
+
+blockquote.big-quote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(51, 122, 183);
+  
+  /*Positioning*/
+  left: 10px;
+  top:5px;
+}
+
+blockquote.big-quote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-1 {
+  background-image: url("/images/church-outside.jpeg");
+}
+section.module.parallax-2 {
+  background-image: url("/images/camp-praise.jpg");
+}
