@@ -6,7 +6,7 @@
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-	<?php include('dev/partials/css-links.html'); ?>
+	<?php include('partials/css-links.html'); ?>
 	
 </head>
 <body>
