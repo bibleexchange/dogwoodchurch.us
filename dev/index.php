@@ -6,7 +6,7 @@
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-	<?php include('partials/css-links.html'); ?>
+	<?php include('dev/partials/css-links.html'); ?>
 	
 </head>
 <body>
@@ -87,9 +87,16 @@
 		<div class="col-md-5">
 			<div class="content-square">
 				<h2 id="about">About Us</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies justo eu scelerisque ullamcorper. In vitae mauris dapibus dolor ultrices egestas. Nam hendrerit, tellus ullamcorper hendrerit ultricies, purus mauris faucibus nulla, et pretium libero libero vitae lorem. Morbi finibus felis bibendum, faucibus ante et, tempus lectus. Aliquam ultrices nisl id magna consectetur eleifend. Mauris nec nunc dignissim, malesuada massa non, vestibulum nisi. Nulla consequat enim at congue tempus. In eu nisi nec felis luctus rutrum.</p>
+				<p>Thank you for visiting our web site!</p>
 
-<p>Aenean dignissim euismod porttitor. Nunc suscipit gravida nulla eu luctus. Maecenas non dapibus diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis massa sit amet ex congue euismod. Mauris et interdum felis, vitae vehicula ex. Nunc vel vestibulum neque. Etiam sodales vehicula nisi eget eleifend. Ut eu sapien est. Nunc at sem tortor. Fusce et nisi nulla.</p>
+				<p>We are a ministry of born-again believers in the Elkton, MD area that are excited about what God is doing in our church and Christian school. Established in 1970 as a mission, we have since built a church and a small Christian school, Holiness Christian Academy, that is serving our community and changing lives for Jesus Christ.</p>
+				
+				<p>We would like to invite you to come be a part of our services. Let God fill your heart with anointed preaching and powerful gospel music as we worship the Lord in spirit and in truth. Remember, &ldquo;a family that prays together, stays together.&rdquo;</p>
+				
+				<p>Don't forget to like us on <a href="https://www.facebook.com/Holiness-Christian-Academy-191297651041762/">Facebook</a>.</p>
+				
+				<p>&mdash;Pastor Andy Parrett, Sr.</p>
+				<p>Senior Pastor</p>
 				
 			</div>
 		</div>
@@ -97,7 +104,7 @@
 	<div class="row">
 		<h2>Audio Sermons</h2>
 		<div class="col-md-10 col-md-offset-1">
-			<iframe width="100%" height="350" style="background-color:transparent; display:block;" frameborder="0" allowtransparency="allowtransparency" scrolling="no" src="//embeds.audioboom.com/publishing/playlist/v4?bg_fill_col=%23ecefef&amp;boo_content_type=playlist&amp;data_for_content_type=1311022-moments-of-christian-history&amp;image_option=small&amp;link_color=%2358d1eb&amp;player_theme=light&amp;src=https%3A%2F%2Fapi.audioboom.com%2Fplaylists%2F1311022-moments-of-christian-history" title="audioBoom player"></iframe>
+			<iframe width="100%" height="500" style="background-color:transparent; display:block;" frameborder="0" allowtransparency="allowtransparency" scrolling="no" src="//embeds.audioboom.com/publishing/playlist/v4?bg_fill_col=%23ecefef&amp;boo_content_type=list&amp;data_for_content_type=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips&amp;image_option=small&amp;link_color=%2358d1eb&amp;player_theme=light&amp;src=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips" title="audioBoom player"></iframe>
 		</div>
 	</div>
 	<section class="module row parallax parallax-2">
@@ -113,9 +120,9 @@
 	<div class="row">
 		<h2>Holiness Christian Academy</h2>
 		<div class="col-md-7 col-md-offset-1">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies justo eu scelerisque ullamcorper. In vitae mauris dapibus dolor ultrices egestas. Nam hendrerit, tellus ullamcorper hendrerit ultricies, purus mauris faucibus nulla, et pretium libero libero vitae lorem. Morbi finibus felis bibendum, faucibus ante et, tempus lectus. Aliquam ultrices nisl id magna consectetur eleifend. Mauris nec nunc dignissim, malesuada massa non, vestibulum nisi. Nulla consequat enim at congue tempus. In eu nisi nec felis luctus rutrum.</p>
+			<p>Holiness Christian Academy was started as the vision of our pastor to give our public school kids a godly option for their education. We are now in our ninth year of K-12 education and we currently have as our primary curriculum the ACE program.</p> 
 
-<p>Aenean dignissim euismod porttitor. Nunc suscipit gravida nulla eu luctus. Maecenas non dapibus diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis massa sit amet ex congue euismod. Mauris et interdum felis, vitae vehicula ex. Nunc vel vestibulum neque. Etiam sodales vehicula nisi eget eleifend. Ut eu sapien est. Nunc at sem tortor. Fusce et nisi nulla.</p>
+<p>We are a small, very focused group that prides ourselves on a real Bible-based, distinctly-Christian program. With God's help we are shaping young lives for the service of the Lord. We offer a quality education along with a safe environment where young hearts can find God and His plan for their lives.</p>
 			
 		</div>
 		<div class="col-md-3">
