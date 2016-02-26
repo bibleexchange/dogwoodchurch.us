@@ -110,7 +110,7 @@ h4 {
 }
 
 .hero-banner {
-	background: url('/images/elkton-main-street.jpg') no-repeat left center;
+	background: url('images/elkton-main-street.jpg') no-repeat left center;
 	h1 {
 		display: none;
 	}
@@ -194,7 +194,7 @@ h4 {
 .church-bg {
     height: 100%;
     overflow: hidden;
-    background: url('/images/church-outside.jpeg') no-repeat center;
+    background: url('images/church-outside.jpeg') no-repeat center;
     background-size: cover;
 }
 .content-square {
@@ -322,7 +322,7 @@ h4 {
 }
 
 #facebook{
-	background-image:url('/images/logo-transparent.png');
+	background-image:url('images/logo-transparent.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:95%;
@@ -404,8 +404,8 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax-1 {
-  background-image: url("/images/church-outside.jpeg");
+  background-image: url("images/church-outside.jpeg");
 }
 section.module.parallax-2 {
-  background-image: url("/images/camp-praise.jpg");
+  background-image: url("images/camp-praise.jpg");
 }
