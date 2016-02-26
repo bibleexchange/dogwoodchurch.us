@@ -2,12 +2,11 @@
 <html>
 <head>
 	<title>Dogwood Church of Elkton, Maryland</title>
-	<base href="./dev" target="_blank">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-	<?php include('partials/css-links.html'); ?>
+	<?php include('dev/partials/css-links.html'); ?>
 	
 </head>
 <body>
