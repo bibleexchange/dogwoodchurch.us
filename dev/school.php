@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Holiness Christian Academy</title>
-	<base href="dev/" target="_blank">
+	<base href="/dev" target="_blank">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
