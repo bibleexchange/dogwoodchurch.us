@@ -17,8 +17,10 @@ Options -Indexes
 # Basic rewrite rules, stop unneeded PERL bot, block subversion directories
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteRule ^(.*/)?\.svn/ - [F,L]
-	ErrorDocument 403 "Access Forbidden"
-	RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
-	RewriteRule .* – [F,L]
+	RewriteBase /
+	RewriteCond %{THE_REQUEST} index\.php
+	RewriteRule ^index\.php$ http://dogwoodchurch\.us/ [R=301,L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index\.php [L]
 </IfModule>
