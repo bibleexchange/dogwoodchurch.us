@@ -2,6 +2,7 @@ $font-sans: 'lato';
 
 $blue: #113C89;
 $red: #D20C07;
+$grey: #eeeeee;
 
 @import '__owlcarousel';
 @import 'owl.theme.default';
@@ -241,6 +242,17 @@ h4 {
 	width: 100%;
 	margin-bottom: 1rem;
 }
+.owl-item p {
+	display: block;
+	background-color: $grey;
+	font-size: 1rem;
+	padding: .8rem;
+	margin: .5rem;
+	border-radius: 5px;
+}
+.owl-item p:empty {
+   display: none;
+}
 #instagram-link {
 	text-align: center;
 }
@@ -250,9 +262,9 @@ h4 {
 	margin-right: auto;
 }
 .social-icon {
-		fill: $blue;
-		width: 100%;
-	}
+	fill: $blue;
+	width: 100%;
+}
 #hca-info .hca-logo {
 	width: 40%;
 	shape-outside: url('images/original-hca-logo.svg');
