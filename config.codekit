@@ -4,28 +4,125 @@
 "files": {
 	"\/css\/application.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/application.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/application.scss": {
+	"\/dev\/css\/application.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/css\/application.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dev\/css\/application.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/application.scss",
-		"outputAbbreviatedPath": "\/css\/application.css",
+		"inputAbbreviatedPath": "\/dev\/css\/application.scss",
+		"outputAbbreviatedPath": "\/dev\/css\/application.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/dev\/css\/images\/andy-parrett-enhanced.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35320,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/andy-parrett-enhanced.jpeg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/andy-parrett-enhanced.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/camp-group.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147456,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/camp-group.jpg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/camp-group.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/camp-praise.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.19078e+06,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/camp-praise.jpg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/camp-praise.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/christian-education-pays.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 875360,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/christian-education-pays.png",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/christian-education-pays.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/church-outside.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268941,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/church-outside.jpeg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/church-outside.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/class-room.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63740,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/class-room.jpg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/class-room.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/collage-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 483416,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/collage-small.png",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/collage-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/collage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262144,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/collage.png",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/collage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/andy-parrett-enhanced.jpeg": {
 		"fileType": 16384,
@@ -49,17 +146,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/camp-praise.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.19078e+06,
-		"inputAbbreviatedPath": "\/images\/camp-praise.jpg",
-		"outputAbbreviatedPath": "\/images\/camp-praise.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/christian-education-pays.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -67,17 +153,6 @@
 		"initialSize": 875360,
 		"inputAbbreviatedPath": "\/images\/christian-education-pays.png",
 		"outputAbbreviatedPath": "\/images\/christian-education-pays.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/church-outside.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 268941,
-		"inputAbbreviatedPath": "\/images\/church-outside.jpeg",
-		"outputAbbreviatedPath": "\/images\/church-outside.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -144,17 +219,6 @@
 		"initialSize": 39605,
 		"inputAbbreviatedPath": "\/images\/download_20150413_165654.jpeg",
 		"outputAbbreviatedPath": "\/images\/download_20150413_165654.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/elkton-main-street.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.44852e+06,
-		"inputAbbreviatedPath": "\/images\/elkton-main-street.jpg",
-		"outputAbbreviatedPath": "\/images\/elkton-main-street.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -457,15 +521,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/fb-events.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/fb-events.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/partials\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -498,15 +553,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/location.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/partials\/map.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/map.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -558,15 +604,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/school.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/school.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -577,7 +614,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "dogwoodchurch.us",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_yellow"
 	},
 "projectSettings": {

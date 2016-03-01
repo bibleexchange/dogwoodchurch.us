@@ -120,8 +120,12 @@
 		</div>
 	</section>
 	<div class="row">
+		<?php include 'partials/instagram-feed.php'; ?>
+	</div>
+	<div class="row">
 		<h2>Holiness Christian Academy</h2>
-		<div class="col-md-7 col-md-offset-1">
+		<div id="hca-info" class="col-md-7 col-md-offset-1">
+			<img class="hca-logo" src="css/images/original-hca-logo.svg">
 			<p>Holiness Christian Academy was started as the vision of our pastor to give our public school kids a godly option for their education. We are now in our ninth year of K-12 education and we currently have as our primary curriculum the ACE program.</p> 
 
 <p>We are a small, very focused group that prides ourselves on a real Bible-based, distinctly-Christian program. With God's help we are shaping young lives for the service of the Lord. We offer a quality education along with a safe environment where young hearts can find God and His plan for their lives.</p>
@@ -136,6 +140,8 @@
 		<div class="col-md-3 col-md-offset-1">
 			<h3>Phone</h3>
 			<p>(443) 553-5477</p>
+			<h3>Email</h3>
+			<p><a href="mailto:info@dogwoodchurch.us" target="_blank">info@dogwoodchurch.us</a></p>
 			<h3>Address</h3>
 			<p>30 Dogwood Rd
 			<br />Elkton, MD 21921</p>	
@@ -165,6 +171,31 @@
 	      }
 	    }
 	  });
+	});
+	
+	$(document).ready(function() {
+	  $(".owl-carousel").owlCarousel({
+	    nav:true,
+	    lazyLoad:true,
+		loop:true,
+		dots:false,
+	    margin:10,
+	    responsive : {
+		    // breakpoint from 0 up
+		    0 : {
+		        items : 1
+		    },
+		    // breakpoint from 480 up
+		    480 : {
+		        items : 2
+		    },
+		    // breakpoint from 768 up
+		    768 : {
+		        items : 4
+		    }
+		}
+	  });
+	  console.log('ready Freddy?'); 
 	});
 </script>
 	

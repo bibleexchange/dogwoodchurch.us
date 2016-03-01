@@ -3,6 +3,11 @@ $font-sans: 'lato';
 $blue: #113C89;
 $red: #D20C07;
 
+@import '__owlcarousel';
+@import 'owl.theme.default';
+
+
+
 body {
 	font-size: 62.5%;
 }
@@ -232,6 +237,17 @@ h4 {
 	background-color: #fff;
 	display: block;
 }
+#hca-info .hca-logo {
+	width: 40%;
+	shape-outside: url('images/original-hca-logo.svg');
+	-webkit-shape-outside: url('images/original-hca-logo.svg');
+	-webkit-shape-margin: 10px;
+	float: left;
+}
+#hca-info p {
+	margin-left: 1rem;
+}
+
 
 #address {
 	text-align:center;
