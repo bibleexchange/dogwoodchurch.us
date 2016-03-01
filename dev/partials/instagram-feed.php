@@ -1,4 +1,4 @@
-<h2>Hello</h2>
+<h2>Pictures</h2>
 <?php
 $instagram_uid="2246674333";
 
@@ -18,13 +18,40 @@ echo "<div id='instagram-feed' class='owl-carousel'>";
 	    $pic_link=$post['link'];
 	    $pic_like_count=$post['likes']['count'];
 	    $pic_comment_count=$post['comments']['count'];
-	    $pic_src=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
+	    $pic_src=str_replace("http://", "https://", $post['images']['low_resolution']['url']);
+	    $pic_src_hires=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
 	    $pic_created_time=date("F j, Y", $post['caption']['created_time']);
 	    $pic_created_time=date("F j, Y", strtotime($pic_created_time . " +1 days"));
 	    $pic_width=$post['images']['standard_resolution']['width'];
 	          
        
-            echo "<div class='item'><a href='$pic_link' target='_blank'><img class='owl-lazy' data-src='{$pic_src}' alt='{$pic_text}'></a><p>{$pic_text}</p></div>";
+        echo "<div class='item'><a href='$pic_link' target='_blank'><img class='owl-lazy' data-src='{$pic_src}' data-src-retina='{$pic_src_hires}' alt='{$pic_text}'></a><p>{$pic_text}</p></div>";
 	}
 echo "</div>";
+
 ?>
+
+<noscript>
+	<div class='col-md-10 col-md-offset-1'>
+		<div id='instagram-pics-no-js' class='row'>
+			<?php
+			$i=0;
+			foreach ($obj['data'] as $post) {
+			    if($i==8) break;
+			     
+			    $pic_text=$post['caption']['text'];
+			    $pic_link=$post['link'];
+			    $pic_like_count=$post['likes']['count'];
+			    $pic_comment_count=$post['comments']['count'];
+			    $pic_src=str_replace("http://", "https://", $post['images']['low_resolution']['url']);
+			    $pic_src_hires=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
+			    $pic_created_time=date("F j, Y", $post['caption']['created_time']);
+			    $pic_created_time=date("F j, Y", strtotime($pic_created_time . " +1 days"));          
+		       
+		        echo "<div class='col-md-3'><a href='$pic_link' target='_blank'><img src='{$pic_src}' alt='{$pic_text}'></a></div>";
+		        $i++;
+			}
+			?>
+		</div>
+	</div>
+</noscript>

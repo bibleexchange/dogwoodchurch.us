@@ -37,6 +37,8 @@
 	
 	
 <!--End Facebook information-->
+
+<?php include_once 'partials/social-icons.svg'; ?>
 	
 <div class="hero-banner">
 	<div class="blur">
@@ -121,6 +123,16 @@
 	</section>
 	<div class="row">
 		<?php include 'partials/instagram-feed.php'; ?>
+		
+		<div class="col-md-2 col-md-offset-5">
+			
+			<div id="social-box">
+			<svg class="social-icon">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+			</svg>	
+			</div>	
+			<a id="instagram-link" href="https://instagram.com/_hca_/">See more on Instagram</a>	
+		</div>
 	</div>
 	<div class="row">
 		<h2>Holiness Christian Academy</h2>

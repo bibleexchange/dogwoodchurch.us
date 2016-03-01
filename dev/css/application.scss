@@ -237,6 +237,22 @@ h4 {
 	background-color: #fff;
 	display: block;
 }
+#instagram-pics-no-js img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+#instagram-link {
+	text-align: center;
+}
+#social-box {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social-icon {
+		fill: $blue;
+		width: 100%;
+	}
 #hca-info .hca-logo {
 	width: 40%;
 	shape-outside: url('images/original-hca-logo.svg');
