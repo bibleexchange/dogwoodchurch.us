@@ -40,6 +40,8 @@
 <!--End Facebook information-->
 
 <?php include_once 'partials/social-icons.svg'; ?>
+
+<?php include_once 'partials/navbar.php'; ?>
 	
 <div class="hero-banner">
 	<div class="blur">
@@ -65,7 +67,7 @@
 	</svg>
 	<h1>Dogwood Church</h1>
 	<h2>Elkton, Maryland</h2>
-	<a href="#about" id="down-arrows">
+	<a href="#service-times" id="down-arrows">
 		<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0, 0, 360, 80">
 		  <g id="dwn">
 		    <path d="M0.5,33 L180.5,78 L360.5,33" fill-opacity="0" stroke-width="2"/>
@@ -81,7 +83,7 @@
 	<section class="module row parallax parallax-1">	
 		<div class="col-md-5 col-md-offset-1">	
 			<div class="content-square">
-				<h2>Service Times</h2>
+				<h2 id="service-times" >Service Times</h2>
 				<ul>
 					<li>Sunday 10 am</li>
 					<li>Sunday 6 pm</li>
@@ -109,7 +111,7 @@
 	<div class="row">
 		<h2>Audio Sermons</h2>
 		<div class="col-md-10 col-md-offset-1">
-			<iframe width="100%" height="500" style="background-color:transparent; display:block;" frameborder="0" allowtransparency="allowtransparency" scrolling="no" src="//embeds.audioboom.com/publishing/playlist/v4?bg_fill_col=%23ecefef&amp;boo_content_type=list&amp;data_for_content_type=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips&amp;image_option=small&amp;link_color=%2358d1eb&amp;player_theme=light&amp;src=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips" title="audioBoom player"></iframe>
+			<iframe width="100%" height="500" style="background-color:transparent; display:block;" frameborder="0" allowtransparency="allowtransparency" scrolling="no" src="//embeds.audioboom.com/publishing/playlist/v4?bg_fill_col=%23eeeeee&amp;boo_content_type=list&amp;data_for_content_type=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips&amp;image_option=small&amp;link_color=%2358d1eb&amp;player_theme=light&amp;src=%2F%2Faudioboom.com%2Fapi%2Fusers%2F4648414%2Faudio_clips" title="audioBoom player"></iframe>
 		</div>
 	</div>
 	<section class="module row parallax parallax-2">
@@ -149,24 +151,11 @@
 		</div>
 	</div>
 	<div class="row">
-		<h2>Contact Us</h2>
-		<div class="col-md-3 col-md-offset-1">
-			<h3>Phone</h3>
-			<p>(443) 553-5477</p>
-			<h3>Email</h3>
-			<p><a href="mailto:info@dogwoodchurch.us" target="_blank">info@dogwoodchurch.us</a></p>
-			<h3>Address</h3>
-			<p>30 Dogwood Rd
-			<br />Elkton, MD 21921</p>	
-		</div>
-		<div class="col-md-7">
-			
-			<?php include 'partials/map.php'; ?>
-		</div>
+		<?php include('partials/contact.php'); ?>
 	</div>
 </div>
 <footer>
-	<p>Copyright 2016 Dogwood Baptist Church</p>
+	<p>Copyright 2016 Dogwood Independent Baptist Church</p>
 </footer>
 	<?php include('partials/js-links.html'); ?>	
 	
@@ -207,8 +196,7 @@
 		        items : 4
 		    }
 		}
-	  });
-	  console.log('ready Freddy?'); 
+	  }); 
 	});
 </script>
 	

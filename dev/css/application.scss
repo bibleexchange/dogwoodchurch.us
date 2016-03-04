@@ -1,6 +1,7 @@
 $font-sans: 'lato';
 
 $blue: #113C89;
+$blue-light: lighten( $blue, 15% );
 $red: #D20C07;
 $grey: #eeeeee;
 
@@ -58,30 +59,31 @@ footer a:hover {
 	width:50%;
 }
 
-/* Customize Navbar */
-
-.navbar-inverse {
-	background-color:#337ab7;
-	border:none;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
-}
-
-.navbar-header .navbar-brand , .navbar-inverse .navbar-nav>li>a{
-	color:#fff;
-}
-
-.navbar-header .navbar-brand:hover {
-	color:#FF9900;
-}
-
-/* end Customize Navbar */
-
 h1, h2, h3, h4, h5, p, blockquote, a, ol, ul, li {
 	font-family: $font-sans;
 }
 
 p, ul, ol, li, a {
 	font-size: 1.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	-webkit-appearance: none;
+	position: relative;
+	background-image: -webkit-linear-gradient(top, transparent 30%, rgba(0, 0, 0, 0.1) 30%);
+	background-image: linear-gradient(to bottom, transparent 30%, rgba(0, 0, 0, 0.1) 30%);
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	background-position: 0 19px
+}
+
+a:hover {
+	text-decoration: none;
+	color: $blue-light;
+	background-image: -webkit-linear-gradient(top, transparent 30%, $blue-light 30%);
+	background-image: linear-gradient(to bottom, transparent 30%, $blue-light 30%);
 }
 
 h2 {
@@ -114,7 +116,29 @@ h4 {
 	font-size: 1.2rem;
 	font-weight: 700;
 }
-
+#main-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: .5rem;
+	a {
+		color: $blue;
+		margin: .5rem;
+		font-weight: 700;
+		border-bottom: solid 2px $blue;
+		text-decoration: none;
+		padding-bottom: .15rem;
+		background-image: none;
+	}
+	a:hover {
+		color: $blue-light;
+		margin: .5rem;
+		font-weight: 700;
+		border-bottom: solid 2px $blue-light;
+		text-decoration: none;
+		background-image: none;
+	}
+}
 .hero-banner {
 	background: url('images/elkton-main-street.jpg') no-repeat left center;
 	h1 {
@@ -315,118 +339,6 @@ h4 {
 #cirriculum-collage{
 	width:100%;
 	margin-top: 30px;
-}
-
-/*h2 {
-	color: #fff;
-	margin-top: 80px;
-	margin-bottom: 25px;
-	padding-left:30px;
-}*/
-
-.header-box {
-  position: relative;
-}
-
-.skew h2 {
-	padding-bottom:10px;
-}
-
-.skew:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin-left: -20px;
-  overflow: visible;
-  width: 105%;
-  height: 80px;
-  background: #DD1E36;
-  z-index: -1;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
-  
-  box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
-  
-}
-
-/* prevents accidental zooming of google map */
-.overlay {
-   background:transparent; 
-   position:absolute;
-   float:left;
-   width:95%;
-   height:480px; /* your iframe height */
-   top:480x;  /* your iframe height */
-   margin-top:-480x;  /* your iframe height */
-   z-index:100;
-}
-
-#facebook{
-	background-image:url('images/logo-transparent.png');
-	background-repeat:no-repeat;
-	background-size:cover;
-	width:95%;
-}
-
-.thumbnail-2 {
-	height:35%;
-	overflow:hidden;
-	margin-top:40px;
-}
-.thumbnail-2 img {
-	height:100%;
-}
-
-.text-muted a {
-	text-decoration:underline;
-}
-.text-muted a:hover {
-	color:black;
-}
-
-.caption {
-    position: absolute;
-    bottom:0;
-	left:0;
-	text-align:center;
-    width: 90%;
-	color:white;
-	text-decoration:italic;
-	background:rgba(0, 0, 0, .5);
-	padding:0;
-	margin-left:15px;
-	margin-right:35px;
-	margin-top:0;
-}
-
-h3#thumbnail-2-label {
-	padding:0;
-	line-height:80%;
-	font-size:130%;
-	font-weight:bold;
-}
-
-blockquote.big-quote::before{
-  content: "\201C"; /*Unicode for Left Double Quote*/
-  
-  /*Font*/
-  font-family: Georgia, serif;
-  font-size: 60px;
-  font-weight: bold;
-  color: rgb(51, 122, 183);
-  
-  /*Positioning*/
-  left: 10px;
-  top:5px;
-}
-
-blockquote.big-quote::after{
-  /*Reset to make sure*/
-  content: "";
 }
 
 /* ============================================================

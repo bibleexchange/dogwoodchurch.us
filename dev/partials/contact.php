@@ -1,4 +1,4 @@
-<h2>Contact Us</h2>
+<h2 id="contact" >Contact Us</h2>
 <div class="col-md-3 col-md-offset-1">
 	<h3>Phone</h3>
 	<p>(443) 553-5477</p>
