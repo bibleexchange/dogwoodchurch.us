@@ -34,8 +34,7 @@
 	</div>
 	
 	<div class="row">
-		<div class="ct-chart"></div>
-		<table class="grades-chart">
+		<table class="table-to-chart">
 			<caption>Table 1</caption>
 			<thead>
 			<tr>
@@ -76,6 +75,35 @@
 				<td>64</td>
 			</tr>
 			<tbody>
+		</table>
+	</div>
+	<div class="row">
+		<table class="table-to-chart">
+			<caption>Table 1</caption>
+			<thead>
+			<tr>
+				<th></th>
+				<th>Private School</th>
+				<th>Public School</th>
+			</tr>
+			<tr>
+				<td>School</td>
+				<td>80</td>
+				<td>56</td>
+			</tr>
+			<tr>
+				<td>Teachers</td>
+				<td>76</td>
+				<td>58</td>
+			</tr>
+			<tr>
+				<td>Standard</td>
+				<td>80</td>
+				<td>56</td>
+			</tr>	</thead>
+			<tbody>
+		
+			</tbody>
 		</table>
 	</div>
 

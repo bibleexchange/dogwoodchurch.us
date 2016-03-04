@@ -1,3 +1,7 @@
+var labels = [];
+var series = [];
+
+//tests for SVG support
 function supportsSvg() {
   return document.implementation &&
     (
@@ -6,64 +10,57 @@ function supportsSvg() {
     );
 }
 
-var labels = [];
-var series = [];
-
-function parseTable() {
-	var colIndex = 1;
-	$('table.grades-chart tr').not(":first").each(function() {
-	    // find the first td in the row
-	    var value = $(this).find('td:nth-child(' + colIndex + ')').text();
-	    // display the value in console
-	    labels.push(value);
-	}); 
-	function grabSeries() {
-		$("table.grades-chart tr").each(function() {
-			colIndex = colIndex + 1;
-			var arrayOfThisRow = [];
-			
-			var tableData = $('table.grades-chart tr').find('td:nth-child(' + colIndex + ')');
-			
-		    if (tableData.length > 0) {
-		        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
-		        series.push(arrayOfThisRow);
-		    }
-		});
-	}
-	grabSeries();
-	
-}
-
-/*function findSeries() {
-	$("table.grades-chart tr").each(function() {
-	    var arrayOfThisRow = [];
-	    var tableData = $(this).find('td').not(":first");
-	    console.log(tableData);
-	    if (tableData.length > 0) {
-	        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
-	        series.push(arrayOfThisRow);
-	    }
-	});
-}*/
-
-
-parseTable();
-
 
 if (supportsSvg()) {
-  var gradesChart = document.querySelector('.grades-chart');
-  gradesChart.style.display = 'none'; // We don't need to show the list
-  // draw the graphic...
-  
+	
+	
+	//adds unique id to each selected element
+
+	var tableToChart=$('.table-to-chart');
+	$( "<div class='ct-chart'></div>" ).insertAfter(tableToChart);
+	$(tableToChart).css("display", "none"); // We don't need to show the list
+	var chart=$('.ct-chart');
+	var numOfCharts = chart.length; //let's cache the  length
+	for(var x=0; x<numOfCharts; x++) {
+	    chart.eq(x).prop('id', 'chartist' + x);
+	}
  
-  
-  new Chartist.Bar('.ct-chart', {
-	  labels: labels,
-	  series: series
-	}, {
-	  width: 500,
-	  height: 300
-	}); 
+	$(tableToChart).each(function() {		
+		
+		function parseTable() {
+			var colIndex = 1;
+			$('table.table-to-chart tr').not(":first").each(function() {
+			    // find the first td in the row
+			    var value = $(this).find('td:nth-child(' + colIndex + ')').text();
+			    // display the value in console
+			    labels.push(value);
+			}); 
+			function grabSeries() {
+				$('table.table-to-chart tr').each(function() {
+					colIndex = colIndex + 1;
+					var arrayOfThisRow = [];
+					
+					var tableData = $('table.table-to-chart tr').find('td:nth-child(' + colIndex + ')');
+					
+				    if (tableData.length > 0) {
+				        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
+				        series.push(arrayOfThisRow);
+				    }
+				});
+			}
+			grabSeries();	
+		}
+		parseTable();
+		new Chartist.Bar('#chartist1', {
+		  labels: labels,
+		  series: series
+		}, {
+		  width: 500,
+		  height: 300
+		});	
+	});
+	
+	
 }
 
 
