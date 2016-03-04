@@ -37,11 +37,11 @@
 		<table class="table-to-chart">
 			<caption>Table 1</caption>
 			<thead>
-			<tr>
-				<th></th>
-				<th>Private School</th>
-				<th>Public School</th>
-			</tr>
+				<tr>
+					<th></th>
+					<th>Private School</th>
+					<th>Public School</th>
+				</tr>
 			</thead>
 			<tbody>
 			<tr>
@@ -79,30 +79,30 @@
 	</div>
 	<div class="row">
 		<table class="table-to-chart">
-			<caption>Table 1</caption>
+			<caption>Table 2</caption>
 			<thead>
-			<tr>
-				<th></th>
-				<th>Private School</th>
-				<th>Public School</th>
-			</tr>
-			<tr>
-				<td>School</td>
-				<td>80</td>
-				<td>56</td>
-			</tr>
-			<tr>
-				<td>Teachers</td>
-				<td>76</td>
-				<td>58</td>
-			</tr>
-			<tr>
-				<td>Standard</td>
-				<td>80</td>
-				<td>56</td>
-			</tr>	</thead>
+				<tr>
+					<th></th>
+					<th>Private School</th>
+					<th>Public School</th>
+				</tr>
+			</thead>
 			<tbody>
-		
+				<tr>
+					<td>School</td>
+					<td>80</td>
+					<td>56</td>
+				</tr>
+				<tr>
+					<td>Teachers</td>
+					<td>76</td>
+					<td>58</td>
+				</tr>
+				<tr>
+					<td>Standard</td>
+					<td>80</td>
+					<td>56</td>
+				</tr>					
 			</tbody>
 		</table>
 	</div>
