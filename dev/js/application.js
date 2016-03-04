@@ -44,6 +44,9 @@ if (supportsSvg()) {
 		    }
 		});
 		
+		console.log(labels);
+		console.log(series);
+		
 		new Chartist.Bar('#chartist'+ x, {
 		  labels: labels,
 		  series: series
@@ -52,16 +55,13 @@ if (supportsSvg()) {
 		  height: 300
 		});
 		
-		series.length = 0;
-		labels.length = 0;
-	    
+		series = [];
+		labels = [];
 	    
 	    console.log(currentRow);
 	    
 	         
 	}
-	console.log(labels);
-	console.log(series);
 	
 	/*function parseTable() {
 		
