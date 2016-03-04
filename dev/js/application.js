@@ -22,7 +22,6 @@ if (supportsSvg()) {
 	for(var x=0; x<numOfCharts; x++) {
 	    var currentTable = tableToChart.eq(x);
 	    var currentRow = $("tr", currentTable);
-	    console.log(currentTable);
 	    //adds unique id to each selected element
 	    chart.eq(x).prop('id', 'chartist' + x);
 	    //Get the contents of the contents of first column and send them to series array
@@ -57,8 +56,8 @@ if (supportsSvg()) {
 		
 		series = [];
 		labels = [];
-	    
-	    console.log(currentRow);
+
+
 	    
 	         
 	}
