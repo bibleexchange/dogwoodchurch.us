@@ -12,56 +12,91 @@ function supportsSvg() {
 
 
 if (supportsSvg()) {
-	
-	
-	//adds unique id to each selected element
 
 	var tableToChart=$('.table-to-chart');
 	$( "<div class='ct-chart'></div>" ).insertAfter(tableToChart);
 	$(tableToChart).css("display", "none"); // We don't need to show the list
 	var chart=$('.ct-chart');
 	var numOfCharts = chart.length; //let's cache the  length
+	var colIndex = 1;
 	for(var x=0; x<numOfCharts; x++) {
+	    var currentTable = tableToChart.eq(x);
+	    var currentRow = $("tr", currentTable);
+	    console.log(currentTable);
+	    //adds unique id to each selected element
 	    chart.eq(x).prop('id', 'chartist' + x);
-	}
- 
-	$(tableToChart).each(function() {		
+	    //Get the contents of the contents of first column and send them to series array
+	    $(currentRow).not(":first").each(function() {
+		    // find the first td in the row
+		    var value = $(this).find('td:nth-child(' + colIndex + ')').text();
+		    // display the value in console
+		    labels.push(value);
+		});
+		$(currentRow).each(function() {
+			colIndex = colIndex + 1;
+			var arrayOfThisRow = [];
+			
+			var tableData = (currentRow).find('td:nth-child(' + colIndex + ')');
+			
+		    if (tableData.length > 0) {
+		        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
+		        series.push(arrayOfThisRow);
+		    }
+		});
 		
-		function parseTable() {
-			var colIndex = 1;
-			$('table.table-to-chart tr').not(":first").each(function() {
-			    // find the first td in the row
-			    var value = $(this).find('td:nth-child(' + colIndex + ')').text();
-			    // display the value in console
-			    labels.push(value);
-			}); 
-			function grabSeries() {
-				$('table.table-to-chart tr').each(function() {
-					colIndex = colIndex + 1;
-					var arrayOfThisRow = [];
-					
-					var tableData = $('table.table-to-chart tr').find('td:nth-child(' + colIndex + ')');
-					
-				    if (tableData.length > 0) {
-				        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
-				        series.push(arrayOfThisRow);
-				    }
-				});
-			}
-			grabSeries();	
-		}
-		parseTable();
-		new Chartist.Bar('#chartist1', {
+		new Chartist.Bar('#chartist'+ x, {
 		  labels: labels,
 		  series: series
 		}, {
 		  width: 500,
 		  height: 300
-		});	
-	});
+		});
+		
+		series.length = 0;
+		labels.length = 0;
+	    
+	    
+	    console.log(currentRow);
+	    
+	         
+	}
+	console.log(labels);
+	console.log(series);
+	
+	/*function parseTable() {
+		
+		
+		 
+		function grabSeries() {
+			chart.eq(x).$('tr').each(function() {
+				colIndex = colIndex + 1;
+				var arrayOfThisRow = [];
+				
+				var tableData = chart.eq(x).$('tr').find('td:nth-child(' + colIndex + ')');
+				
+			    if (tableData.length > 0) {
+			        tableData.each(function() { arrayOfThisRow.push($(this).text()); });
+			        series.push(arrayOfThisRow);
+			    }
+			});
+		}
+		grabSeries();	
+	}
+	parseTable();
+	
+	
+	
+	
+	*/
+	
+	
+	
+	
 	
 	
 }
+
+
 
 
 
