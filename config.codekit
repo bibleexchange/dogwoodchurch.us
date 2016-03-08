@@ -63,6 +63,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dev\/css\/images\/autumn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.50279e+06,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/autumn.jpg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/autumn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/css\/images\/camp-group.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -312,6 +323,17 @@
 		"initialSize": 49648,
 		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-with-board.png",
 		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-with-board.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dev\/css\/images\/jumping.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.01966e+06,
+		"inputAbbreviatedPath": "\/dev\/css\/images\/jumping.jpg",
+		"outputAbbreviatedPath": "\/dev\/css\/images\/jumping.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

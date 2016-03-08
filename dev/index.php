@@ -80,7 +80,7 @@
 
 <div class="container-fluid">
 	
-	<section class="module row parallax parallax-1">	
+	<section class="module row parallax parallax-1">
 		<div class="col-md-5 col-md-offset-1">	
 			<div class="content-square">
 				<h2 id="service-times" >Service Times</h2>
@@ -91,6 +91,7 @@
 				</ul>
 			</div>
 		</div>
+		<img class="hidden-large" src="css/images/church-outside.jpeg">	
 		<div class="col-md-5">
 			<div class="content-square">
 				<h2 id="about">About Us</h2>

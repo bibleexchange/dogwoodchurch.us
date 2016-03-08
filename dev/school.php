@@ -26,21 +26,28 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
-		
+<?php include_once 'partials/navbar.php'; ?>	
 
 <div class="container-fluid" id="hca">
 	
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-		
+	<section class="module row parallax parallax-3">
+		<div class="blur">
 			<img src="/images/original-hca-logo.svg" id="hca-large-logo">
 		
-		    <p>All are invited to explore the facilities and discover the benefits of enrolling your children for Fall 2016.</p>
-		
+		    <h2>All are invited to explore the facilities and discover the benefits of enrolling your children for Fall 2016.</h2>
+		    <a href="#quality" id="down-arrows">
+				<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0, 0, 360, 80">
+				  <g id="dwn">
+				    <path d="M0.5,33 L180.5,78 L360.5,33" fill-opacity="0" stroke-width="2"/>
+				    <path d="M0.5,3 L180.5,48 L360.5,3" fill-opacity="0" stroke-width="2"/>
+				  </g>
+				</svg>
+			</a>
 		</div>
-	</div>
+		<img class="hidden-large" src="css/images/jumping.jpg">
+	</section>
 	<div class="row">
-		<h2>We Offer Quality Education</h2>
+		<h2 id="quality">We Offer Quality Education</h2>
 		<div class="col-md-10 col-md-offset-1">
 			<blockquote>
 				<p>Students don't just get by, they get ahead!</p>
@@ -127,13 +134,14 @@
 			<p>The National Center for Education Statistics periodically administers the National Assessment of Educational Progress (NAEP) to test the knowledge and skills of the nation's students in grades 4, 8, and 12. Students in private schools consistently score well above the national average. At all three grades a significantly higher percentage of private school students score at or above the Basic, Proficient, and Advanced levels than public school students. Below are the results from the most recent NAEP report cards.<a href="http://www.capenet.org/facts.html">(source)</a></p>
 		</div>
 	</div>
-	<div class="row">
+	
+	<section class="module row parallax parallax-4">
+		<img class="hidden-large" src="css/images/autumn.jpg">
+		<div class="frosted">
 		<h2>With Us, You're Kids are Safe</h2>
 		<div class="col-md-10 col-md-offset-1">
 			<p>It seems all the time that we hear on the news of acts of violence and bullying in public schools. Holiness Christian Academy is dedicated to the safety of your children. No outsiders are allowed in the building when school is in session. The ratio of students to teachers is low so that teachers can monitor student behavior for bullying. Our Christian environment encourages courteous interaction between students.</p>
 		</div>
-	</div>
-	<div class="row">
 		<div class="col-md-3 col-md-offset-1">
 			<blockquote>
 				<p>I advise no one to place his child where the Scriptures do not reign paramount. Every institution in which men are not increasingly occupied with the Word of God must become corrupt&#8230;</p>
@@ -190,7 +198,8 @@
 			 </tr>
 			</table>
 		</div>
-	</div>
+		</div>
+	</section>
 	<div class="row">
 		<h2>Education with a Biblical Foundation</h2>
 		<div class="col-md-10 col-md-offset-1">
@@ -241,9 +250,9 @@
 	<div class="row">
 		<?php include('partials/curriculum.html'); ?>		
 	</div>
-	<div class="row">	
+	<!--<div class="row">	
 		<?php include('partials/facebook-notifications.html'); ?>					
-	</div>
+	</div>-->
 	<div class="row">
 		<?php include('partials/contact.php'); ?>
 	</div>

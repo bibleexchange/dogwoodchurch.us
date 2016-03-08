@@ -246,22 +246,7 @@ h4 {
 		text-align: center;
 	}
 }
-.frosted {
-	background-color: rgba(255,255,255, 0.8);
-	width: 100%;
-	height: 100%;
-	display: inline-block;
-	padding-bottom: 2rem;
-	h2 {
-		margin-top: 0;
-	}
-}
-.frosted::before {
-	content: '';
-	height: 4rem;
-	background-color: #fff;
-	display: block;
-}
+
 #instagram-pics-no-js img {
 	width: 100%;
 	margin-bottom: 1rem;
@@ -301,7 +286,11 @@ h4 {
 }
 
 #hca-large-logo {
-	width: 60%;
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10vh;
 }
 
 .ct-series-a .ct-bar {
@@ -366,27 +355,55 @@ blockquote p {
 	margin-top: 30px;
 }
 
-/* ============================================================
-  SECTIONS
-============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
+.hidden-large {
+	width: 100%;
 }
-section.module p:last-child {
-  margin-bottom: 0;
+
+@media (min-width: 760px) {
+	.hidden-large {
+		display: none;
+	}
+	section.module:last-child {
+	  margin-bottom: 0;
+	}
+	section.module p:last-child {
+	  margin-bottom: 0;
+	}
+	section.module.content {
+	  padding: 40px 0;
+	}
+	section.module.parallax {
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	}
+	section.module.parallax-1 {
+	  background-image: url("images/church-outside.jpeg");
+	}
+	section.module.parallax-2 {
+	  background-image: url("images/camp-praise.jpg");
+	}
+	section.module.parallax-3 {
+	  background-image: url("images/jumping.jpg");
+	}
+	section.module.parallax-4 {
+	  background-image: url("images/autumn.jpg");
+	}
+	.frosted {
+	background-color: rgba(255,255,255, 0.8);
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	padding-bottom: 2rem;
+	h2 {
+		margin-top: 0;
+	}
 }
-section.module.content {
-  padding: 40px 0;
-}
-section.module.parallax {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-section.module.parallax-1 {
-  background-image: url("images/church-outside.jpeg");
-}
-section.module.parallax-2 {
-  background-image: url("images/camp-praise.jpg");
+	.frosted::before {
+		content: '';
+		height: 4rem;
+		background-color: #fff;
+		display: block;
+	}
 }
