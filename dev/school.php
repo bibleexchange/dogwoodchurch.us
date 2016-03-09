@@ -47,6 +47,11 @@
 		<img class="hidden-large" src="css/images/jumping.jpg">
 	</section>
 	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="1" data-href="https://www.facebook.com/191297651041762/videos/517849511719906/"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/191297651041762/videos/517849511719906/"><a href="https://www.facebook.com/191297651041762/videos/517849511719906/">Holiness Christian Academy Mini Documentary</a><p>If you&#039;re wondering what Holiness Christian Academy is all about, now you know!</p>Posted by <a href="https://www.facebook.com/Dogwood-Church-Holiness-Christian-Academy-191297651041762/">Dogwood Church/ Holiness Christian Academy</a> on Wednesday, March 9, 2016</blockquote></div></div>
+		</div>
+	</div>
+	<div class="row">
 		<h2 id="quality">We Offer Quality Education</h2>
 		<div class="col-md-10 col-md-offset-1">
 			<blockquote>
