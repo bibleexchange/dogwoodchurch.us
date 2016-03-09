@@ -32,7 +32,7 @@
 	
 	<section class="module row parallax parallax-3">
 		<div class="blur">
-			<img src="/images/original-hca-logo.svg" id="hca-large-logo">
+			<img src="css/images/original-hca-logo.svg" id="hca-large-logo">
 		
 		    <h2>All are invited to explore the facilities and discover the benefits of enrolling your children for Fall 2016.</h2>
 		    <a href="#quality" id="down-arrows">
