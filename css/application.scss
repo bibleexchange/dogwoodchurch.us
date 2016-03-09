@@ -1,0 +1,409 @@
+$font-sans: 'lato';
+
+$blue: #113C89;
+$blue-light: lighten( $blue, 15% );
+$red: #D20C07;
+$grey: #eeeeee;
+
+@import '__owlcarousel';
+@import 'owl.theme.default';
+
+
+
+body {
+	font-size: 62.5%;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+ html, body {
+	height: 100%;
+}
+
+footer.footer {
+	color: #666;
+	background: rgb(238, 238, 238);
+	padding: 17px 0 18px 0;
+	text-align:center;
+	margin-top:50px;
+}
+footer a {
+	color: #999;
+}
+footer a:hover {
+	color: #efefef;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -63px;
+}
+.push {
+	height: 63px;
+}
+
+#headline {
+	text-align:center;
+	background-color:transparent;
+}
+#headline h2 {
+	color:black;
+}
+#headline #large-logo{
+	margin-right:30px;
+	float:left;
+	top:50px;
+	left:0;
+	width:50%;
+}
+
+h1, h2, h3, h4, h5, p, blockquote, a, ol, ul, li {
+	font-family: $font-sans;
+}
+
+p, ul, ol, li, a {
+	font-size: 1.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	-webkit-appearance: none;
+	position: relative;
+	background-image: -webkit-linear-gradient(top, transparent 30%, rgba(0, 0, 0, 0.1) 30%);
+	background-image: linear-gradient(to bottom, transparent 30%, rgba(0, 0, 0, 0.1) 30%);
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	background-position: 0 19px
+}
+
+a:hover {
+	text-decoration: none;
+	color: $blue-light;
+	background-image: -webkit-linear-gradient(top, transparent 30%, $blue-light 30%);
+	background-image: linear-gradient(to bottom, transparent 30%, $blue-light 30%);
+}
+
+h2 {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	padding-top: .4rem;
+	font-family: 'lato';
+	font-size: 2.6rem;
+	color: $red;
+	display: block;
+	border-top: $red solid 2px;
+	text-align: center;
+	font-weight: normal;
+}
+h2 a {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	padding-top: .4rem;
+	font-family: 'lato';
+	font-size: 2.6rem;
+	color: $red;
+	text-align: center;
+	font-weight: normal;
+}
+h3 {
+	color: $blue;
+	font-size: 1.8rem;
+}
+h4 {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+#main-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: .5rem;
+	a {
+		color: $blue;
+		margin: .5rem;
+		font-weight: 700;
+		border-bottom: solid 2px $blue;
+		text-decoration: none;
+		padding-bottom: .15rem;
+		background-image: none;
+	}
+	a:hover {
+		color: $blue-light;
+		margin: .5rem;
+		font-weight: 700;
+		border-bottom: solid 2px $blue-light;
+		text-decoration: none;
+		background-image: none;
+	}
+}
+.hero-banner {
+	background: url('images/elkton-main-street.jpg') no-repeat left center;
+	h1 {
+		display: none;
+	}
+}
+#hero-logo {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#down-arrows {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-name: bounce;
+}
+#dwn {
+	stroke: $blue;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.blur {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255,255,255, .8);
+	padding-top: 20vh;
+}
+.church-bg {
+    height: 100%;
+    overflow: hidden;
+    background: url('images/church-outside.jpeg') no-repeat center;
+    background-size: cover;
+}
+.content-square {
+	background-color: rgba(255,255,255, 0.8);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 2rem;
+	h2 {
+		margin-left: -2rem;
+		margin-right: -2rem;
+		margin-top: 0;
+	}
+	ul {
+		list-style: none;
+		-webkit-padding-start: 0;
+	}
+	li {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+}
+
+#instagram-pics-no-js img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.owl-item p {
+	display: block;
+	background-color: $grey;
+	font-size: 1rem;
+	padding: .8rem;
+	margin: .5rem;
+	border-radius: 5px;
+}
+.owl-item p:empty {
+   display: none;
+}
+#instagram-link {
+	text-align: center;
+}
+#social-box {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social-icon {
+	fill: $blue;
+	width: 100%;
+}
+#hca-info .hca-logo {
+	width: 40%;
+	shape-outside: url('images/original-hca-logo.svg');
+	-webkit-shape-outside: url('images/original-hca-logo.svg');
+	-webkit-shape-margin: 10px;
+	float: left;
+}
+#hca-info p {
+	margin-left: 1rem;
+}
+
+#hca-large-logo {
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10vh;
+}
+
+.ct-series-a .ct-bar {
+	stroke: $red;
+}
+.ct-series-b .ct-bar {
+	stroke: $blue;
+}
+blockquote {
+	font-size: 1.2rem;
+}
+blockquote p {
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	color: $blue;
+}
+.icons {
+	margin-top: 1.4rem;
+	text-align: center;
+	.fa {
+		color: $red;
+	}
+}
+
+#address {
+	text-align:center;
+	font-weight:bold;
+	font-size:150%;
+}
+
+#principle-definition {
+	width:325px;
+	float:right;
+}
+
+#second-about-image {
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+
+#second-about-list {
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+
+@media(min-width:600px){
+	
+	#second-about-image {
+		width:50%;
+	}
+	
+	#second-about-list {
+		width:50%;
+	}
+	
+}
+
+#cirriculum-collage{
+	width:100%;
+	margin-top: 30px;
+}
+
+.hidden-large {
+	width: 100%;
+}
+
+@media (min-width: 760px) {
+	.hidden-large {
+		display: none;
+	}
+	section.module:last-child {
+	  margin-bottom: 0;
+	}
+	section.module p:last-child {
+	  margin-bottom: 0;
+	}
+	section.module.content {
+	  padding: 40px 0;
+	}
+	section.module.parallax {
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	}
+	section.module.parallax-1 {
+	  background-image: url("images/church-outside.jpeg");
+	}
+	section.module.parallax-2 {
+	  background-image: url("images/camp-praise.jpg");
+	}
+	section.module.parallax-3 {
+	  background-image: url("images/jumping.jpg");
+	}
+	section.module.parallax-4 {
+	  background-image: url("images/autumn.jpg");
+	}
+	.frosted {
+	background-color: rgba(255,255,255, 0.8);
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	padding-bottom: 2rem;
+	h2 {
+		margin-top: 0;
+	}
+}
+	.frosted::before {
+		content: '';
+		height: 4rem;
+		background-color: #fff;
+		display: block;
+	}
+}

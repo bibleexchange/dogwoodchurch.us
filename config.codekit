@@ -1,50 +1,41 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19115",
 "files": {
+	"\/css\/__owlcarousel.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/__owlcarousel.scss",
+		"outputAbbreviatedPath": "\/css\/__owlcarousel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/application.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/application.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dev\/css\/__owlcarousel.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/css\/__owlcarousel.scss",
-		"outputAbbreviatedPath": "\/dev\/css\/__owlcarousel.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/dev\/css\/application.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/css\/application.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/css\/application.scss": {
+	"\/css\/application.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/css\/application.scss",
-		"outputAbbreviatedPath": "\/dev\/css\/application.css",
+		"inputAbbreviatedPath": "\/css\/application.scss",
+		"outputAbbreviatedPath": "\/css\/application.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -52,411 +43,411 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/dev\/css\/images\/andy-parrett-enhanced.jpeg": {
+	"\/css\/images\/andy-parrett-enhanced.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 35320,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/andy-parrett-enhanced.jpeg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/andy-parrett-enhanced.jpeg",
+		"inputAbbreviatedPath": "\/css\/images\/andy-parrett-enhanced.jpeg",
+		"outputAbbreviatedPath": "\/css\/images\/andy-parrett-enhanced.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/autumn.jpg": {
+	"\/css\/images\/autumn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5.50279e+06,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/autumn.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/autumn.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/autumn.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/autumn.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/camp-group.jpg": {
+	"\/css\/images\/camp-group.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 147456,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/camp-group.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/camp-group.jpg",
+		"initialSize": 2.3462e+06,
+		"inputAbbreviatedPath": "\/css\/images\/camp-group.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/camp-group.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/camp-praise.jpg": {
+	"\/css\/images\/camp-praise.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.19078e+06,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/camp-praise.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/camp-praise.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/camp-praise.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/camp-praise.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/christian-education-pays.png": {
+	"\/css\/images\/christian-education-pays.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 875360,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/christian-education-pays.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/christian-education-pays.png",
+		"inputAbbreviatedPath": "\/css\/images\/christian-education-pays.png",
+		"outputAbbreviatedPath": "\/css\/images\/christian-education-pays.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/church-outside.jpeg": {
+	"\/css\/images\/church-outside.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268941,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/church-outside.jpeg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/church-outside.jpeg",
+		"inputAbbreviatedPath": "\/css\/images\/church-outside.jpeg",
+		"outputAbbreviatedPath": "\/css\/images\/church-outside.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/class-room.jpg": {
+	"\/css\/images\/class-room.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 63740,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/class-room.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/class-room.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/class-room.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/class-room.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/collage-small.png": {
+	"\/css\/images\/collage-small.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 483416,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/collage-small.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/collage-small.png",
+		"inputAbbreviatedPath": "\/css\/images\/collage-small.png",
+		"outputAbbreviatedPath": "\/css\/images\/collage-small.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/collage.png": {
+	"\/css\/images\/collage.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 262144,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/collage.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/collage.png",
+		"initialSize": 9.43543e+06,
+		"inputAbbreviatedPath": "\/css\/images\/collage.png",
+		"outputAbbreviatedPath": "\/css\/images\/collage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/dogwood.jpg": {
+	"\/css\/images\/dogwood.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 63069,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/dogwood.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/dogwood.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/dogwood.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/dogwood.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/download_20150412_123718.jpeg": {
+	"\/css\/images\/download_20150412_123718.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41831,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/download_20150412_123718.jpeg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/download_20150412_123718.jpeg",
+		"inputAbbreviatedPath": "\/css\/images\/download_20150412_123718.jpeg",
+		"outputAbbreviatedPath": "\/css\/images\/download_20150412_123718.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/download_20150413_165654.jpeg": {
+	"\/css\/images\/download_20150413_165654.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 39605,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/download_20150413_165654.jpeg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/download_20150413_165654.jpeg",
+		"inputAbbreviatedPath": "\/css\/images\/download_20150413_165654.jpeg",
+		"outputAbbreviatedPath": "\/css\/images\/download_20150413_165654.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/elkton-main-street.jpg": {
+	"\/css\/images\/elkton-main-street.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.44852e+06,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/elkton-main-street.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/elkton-main-street.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/elkton-main-street.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/elkton-main-street.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/andrew-parrett.png": {
+	"\/css\/images\/headshots\/andrew-parrett.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 64286,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andrew-parrett.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andrew-parrett.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/andrew-parrett.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/andrew-parrett.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/andy-parrett-blurry.png": {
+	"\/css\/images\/headshots\/andy-parrett-blurry.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53464,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett-blurry.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett-blurry.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett-blurry.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett-blurry.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/andy-parrett.png": {
+	"\/css\/images\/headshots\/andy-parrett.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47940,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/andy-parrett_ (2).png": {
+	"\/css\/images\/headshots\/andy-parrett_ (2).png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49159,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett_ (2).png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/andy-parrett_ (2).png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett_ (2).png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/andy-parrett_ (2).png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/coty-parrett-arc.png": {
+	"\/css\/images\/headshots\/coty-parrett-arc.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 61912,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett-arc.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett-arc.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett-arc.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett-arc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/coty-parrett.png": {
+	"\/css\/images\/headshots\/coty-parrett.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 53239,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/coty-parrett_arc1.png": {
+	"\/css\/images\/headshots\/coty-parrett_arc1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 55512,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett_arc1.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/coty-parrett_arc1.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett_arc1.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/coty-parrett_arc1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/peggy.png": {
+	"\/css\/images\/headshots\/peggy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 54668,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/peggy.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/peggy.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/peggy.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/peggy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/rhonda-parrett-archive.png": {
+	"\/css\/images\/headshots\/rhonda-parrett-archive.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 61642,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett-archive.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett-archive.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett-archive.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett-archive.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/rhonda-parrett.png": {
+	"\/css\/images\/headshots\/rhonda-parrett.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 46529,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/rhonda-parrett2.png": {
+	"\/css\/images\/headshots\/rhonda-parrett2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 50354,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett2.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-parrett2.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett2.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-parrett2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/headshots\/rhonda-with-board.png": {
+	"\/css\/images\/headshots\/rhonda-with-board.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49648,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-with-board.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/headshots\/rhonda-with-board.png",
+		"inputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-with-board.png",
+		"outputAbbreviatedPath": "\/css\/images\/headshots\/rhonda-with-board.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/jumping.jpg": {
+	"\/css\/images\/jumping.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.01966e+06,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/jumping.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/jumping.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/jumping.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/jumping.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/logo-transparent.png": {
+	"\/css\/images\/logo-transparent.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 146694,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/logo-transparent.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/logo-transparent.png",
+		"inputAbbreviatedPath": "\/css\/images\/logo-transparent.png",
+		"outputAbbreviatedPath": "\/css\/images\/logo-transparent.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/mark-your-calendar.jpg": {
+	"\/css\/images\/mark-your-calendar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 398385,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/mark-your-calendar.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/mark-your-calendar.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/mark-your-calendar.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/mark-your-calendar.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/mark-your-calendar3.jpg": {
+	"\/css\/images\/mark-your-calendar3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 486740,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/mark-your-calendar3.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/mark-your-calendar3.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/mark-your-calendar3.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/mark-your-calendar3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/peggy-cutting-cake.jpg": {
+	"\/css\/images\/peggy-cutting-cake.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 99151,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/peggy-cutting-cake.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/peggy-cutting-cake.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/peggy-cutting-cake.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/peggy-cutting-cake.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/principle.jpg": {
+	"\/css\/images\/principle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 74167,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/principle.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/principle.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/principle.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/principle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/rhonda-and-kids.jpg": {
+	"\/css\/images\/rhonda-and-kids.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 90130,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/rhonda-and-kids.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/rhonda-and-kids.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/rhonda-and-kids.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/rhonda-and-kids.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/rhonda-and-kids.png": {
+	"\/css\/images\/rhonda-and-kids.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 721492,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/rhonda-and-kids.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/rhonda-and-kids.png",
+		"inputAbbreviatedPath": "\/css\/images\/rhonda-and-kids.png",
+		"outputAbbreviatedPath": "\/css\/images\/rhonda-and-kids.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/rhonda-parrett-enhanced.jpeg": {
+	"\/css\/images\/rhonda-parrett-enhanced.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 29627,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/rhonda-parrett-enhanced.jpeg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/rhonda-parrett-enhanced.jpeg",
+		"inputAbbreviatedPath": "\/css\/images\/rhonda-parrett-enhanced.jpeg",
+		"outputAbbreviatedPath": "\/css\/images\/rhonda-parrett-enhanced.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/roger-lewin-quote.png": {
+	"\/css\/images\/roger-lewin-quote.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 25692,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/roger-lewin-quote.png",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/roger-lewin-quote.png",
+		"inputAbbreviatedPath": "\/css\/images\/roger-lewin-quote.png",
+		"outputAbbreviatedPath": "\/css\/images\/roger-lewin-quote.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/images\/waterslide.jpg": {
+	"\/css\/images\/waterslide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 412469,
-		"inputAbbreviatedPath": "\/dev\/css\/images\/waterslide.jpg",
-		"outputAbbreviatedPath": "\/dev\/css\/images\/waterslide.jpg",
+		"inputAbbreviatedPath": "\/css\/images\/waterslide.jpg",
+		"outputAbbreviatedPath": "\/css\/images\/waterslide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dev\/css\/owl.theme.default.scss": {
+	"\/css\/owl.theme.default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/css\/owl.theme.default.scss",
-		"outputAbbreviatedPath": "\/dev\/css\/owl.theme.default.css",
+		"inputAbbreviatedPath": "\/css\/owl.theme.default.scss",
+		"outputAbbreviatedPath": "\/css\/owl.theme.default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -464,524 +455,13 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/dev\/img\/owl.video.play.png": {
+	"\/img\/owl.video.play.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4976,
-		"inputAbbreviatedPath": "\/dev\/img\/owl.video.play.png",
-		"outputAbbreviatedPath": "\/dev\/img\/owl.video.play.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/dev\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/js\/application.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/js\/application.js",
-		"outputAbbreviatedPath": "\/dev\/js\/min\/application-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/dev\/js\/jquery.smint.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/js\/jquery.smint.js",
-		"outputAbbreviatedPath": "\/dev\/js\/min\/jquery.smint-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/dev\/js\/min\/application-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/js\/min\/application-min.js",
-		"outputAbbreviatedPath": "\/dev\/js\/min\/min\/application-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/dev\/js\/owl.carousel.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/js\/owl.carousel.min.js",
-		"outputAbbreviatedPath": "\/dev\/js\/min\/owl.carousel.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/dev\/partials\/contact.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/contact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/contact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/css-links.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/css-links.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/facebook-notifications.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/facebook-notifications.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/fb-events.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/fb-events.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/footer.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/instagram-feed.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/instagram-feed.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/js-links.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/js-links.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/location.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/location.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/map.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/map.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/navbar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/navbar.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/partials\/staff.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/partials\/staff.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dev\/school.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dev\/school.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/images\/andy-parrett-enhanced.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35320,
-		"inputAbbreviatedPath": "\/images\/andy-parrett-enhanced.jpeg",
-		"outputAbbreviatedPath": "\/images\/andy-parrett-enhanced.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/camp-group.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.3462e+06,
-		"inputAbbreviatedPath": "\/images\/camp-group.jpg",
-		"outputAbbreviatedPath": "\/images\/camp-group.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/christian-education-pays.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 875360,
-		"inputAbbreviatedPath": "\/images\/christian-education-pays.png",
-		"outputAbbreviatedPath": "\/images\/christian-education-pays.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/class-room.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63740,
-		"inputAbbreviatedPath": "\/images\/class-room.jpg",
-		"outputAbbreviatedPath": "\/images\/class-room.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/collage-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 483416,
-		"inputAbbreviatedPath": "\/images\/collage-small.png",
-		"outputAbbreviatedPath": "\/images\/collage-small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/collage.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9.43543e+06,
-		"inputAbbreviatedPath": "\/images\/collage.png",
-		"outputAbbreviatedPath": "\/images\/collage.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/dogwood.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63069,
-		"inputAbbreviatedPath": "\/images\/dogwood.jpg",
-		"outputAbbreviatedPath": "\/images\/dogwood.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/download_20150412_123718.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41831,
-		"inputAbbreviatedPath": "\/images\/download_20150412_123718.jpeg",
-		"outputAbbreviatedPath": "\/images\/download_20150412_123718.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/download_20150413_165654.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39605,
-		"inputAbbreviatedPath": "\/images\/download_20150413_165654.jpeg",
-		"outputAbbreviatedPath": "\/images\/download_20150413_165654.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/andrew-parrett.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 64286,
-		"inputAbbreviatedPath": "\/images\/headshots\/andrew-parrett.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/andrew-parrett.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/andy-parrett-blurry.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53464,
-		"inputAbbreviatedPath": "\/images\/headshots\/andy-parrett-blurry.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/andy-parrett-blurry.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/andy-parrett.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47940,
-		"inputAbbreviatedPath": "\/images\/headshots\/andy-parrett.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/andy-parrett.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/andy-parrett_ (2).png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49159,
-		"inputAbbreviatedPath": "\/images\/headshots\/andy-parrett_ (2).png",
-		"outputAbbreviatedPath": "\/images\/headshots\/andy-parrett_ (2).png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/coty-parrett-arc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61912,
-		"inputAbbreviatedPath": "\/images\/headshots\/coty-parrett-arc.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/coty-parrett-arc.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/coty-parrett.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53239,
-		"inputAbbreviatedPath": "\/images\/headshots\/coty-parrett.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/coty-parrett.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/coty-parrett_arc1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55512,
-		"inputAbbreviatedPath": "\/images\/headshots\/coty-parrett_arc1.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/coty-parrett_arc1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/peggy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54668,
-		"inputAbbreviatedPath": "\/images\/headshots\/peggy.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/peggy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/rhonda-parrett-archive.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61642,
-		"inputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett-archive.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett-archive.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/rhonda-parrett.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46529,
-		"inputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/rhonda-parrett2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50354,
-		"inputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett2.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/rhonda-parrett2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/headshots\/rhonda-with-board.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49648,
-		"inputAbbreviatedPath": "\/images\/headshots\/rhonda-with-board.png",
-		"outputAbbreviatedPath": "\/images\/headshots\/rhonda-with-board.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-transparent.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 146694,
-		"inputAbbreviatedPath": "\/images\/logo-transparent.png",
-		"outputAbbreviatedPath": "\/images\/logo-transparent.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/mark-your-calendar.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 398385,
-		"inputAbbreviatedPath": "\/images\/mark-your-calendar.jpg",
-		"outputAbbreviatedPath": "\/images\/mark-your-calendar.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/mark-your-calendar3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 486740,
-		"inputAbbreviatedPath": "\/images\/mark-your-calendar3.jpg",
-		"outputAbbreviatedPath": "\/images\/mark-your-calendar3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/peggy-cutting-cake.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99151,
-		"inputAbbreviatedPath": "\/images\/peggy-cutting-cake.jpg",
-		"outputAbbreviatedPath": "\/images\/peggy-cutting-cake.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/principle.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74167,
-		"inputAbbreviatedPath": "\/images\/principle.jpg",
-		"outputAbbreviatedPath": "\/images\/principle.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/rhonda-and-kids.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 90130,
-		"inputAbbreviatedPath": "\/images\/rhonda-and-kids.jpg",
-		"outputAbbreviatedPath": "\/images\/rhonda-and-kids.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/rhonda-and-kids.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 721492,
-		"inputAbbreviatedPath": "\/images\/rhonda-and-kids.png",
-		"outputAbbreviatedPath": "\/images\/rhonda-and-kids.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/rhonda-parrett-enhanced.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29627,
-		"inputAbbreviatedPath": "\/images\/rhonda-parrett-enhanced.jpeg",
-		"outputAbbreviatedPath": "\/images\/rhonda-parrett-enhanced.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/roger-lewin-quote.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25692,
-		"inputAbbreviatedPath": "\/images\/roger-lewin-quote.png",
-		"outputAbbreviatedPath": "\/images\/roger-lewin-quote.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/waterslide.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 412469,
-		"inputAbbreviatedPath": "\/images\/waterslide.jpg",
-		"outputAbbreviatedPath": "\/images\/waterslide.jpg",
+		"inputAbbreviatedPath": "\/img\/owl.video.play.png",
+		"outputAbbreviatedPath": "\/img\/owl.video.play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -995,12 +475,45 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/application.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/application.js",
+		"outputAbbreviatedPath": "\/js\/min\/application-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/jquery.smint.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.smint.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.smint-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/application-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/application-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/application-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/owl.carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/owl.carousel.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1015,20 +528,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/css-links.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/css-links.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/partials\/curriculum.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/curriculum.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1042,20 +555,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/fb-events.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/fb-events.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/partials\/headline.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/headline.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1087,20 +600,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/navbar.html": {
+	"\/partials\/map.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/navbar.html",
+		"inputAbbreviatedPath": "\/partials\/map.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/partials\/reputation.html": {
+	"\/partials\/navbar.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/reputation.html",
+		"inputAbbreviatedPath": "\/partials\/navbar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1114,26 +627,14 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/readme.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
+	"\/school.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/readme.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/readme.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/school.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
