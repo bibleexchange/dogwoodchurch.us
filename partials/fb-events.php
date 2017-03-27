@@ -6,6 +6,7 @@
 	 
 	// automatically adjust date range
 	// human readable years
+	date_default_timezone_set('America/New_York');
 	$since_date = date('Y-m-d');
 	$until_date = date('Y-12-31', strtotime('+' . $year_range . ' years'));
 	 

@@ -400,7 +400,9 @@ h4 {
   right: 0;
   animation-delay: 1s;
   animation-duration: 2s;
-  animation-name: bounce; }
+  animation-name: bounce;
+  background-image: none;
+}
 
 #dwn {
   stroke: #113C89; }
@@ -507,7 +509,7 @@ h4 {
   margin-left: 1rem; }
 
 #hca-large-logo {
-  width: 25%;
+  width: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;

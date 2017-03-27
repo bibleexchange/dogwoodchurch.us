@@ -34,7 +34,7 @@
 		<div class="blur">
 			<img src="css/images/original-hca-logo.svg" id="hca-large-logo">
 		
-		    <h2>All are invited to explore the facilities and discover the benefits of enrolling your children for Fall 2016.</h2>
+		    <h2>All are invited to explore the facilities and discover the benefits of enrolling your children for Fall 2017.</h2>
 		    <a href="#quality" id="down-arrows">
 				<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0, 0, 360, 80">
 				  <g id="dwn">
@@ -251,10 +251,10 @@
 			</table>
 		</div>
 	</div>
-	
+	<!--
 	<div class="row">
 		<?php include('partials/curriculum.html'); ?>		
-	</div>
+	</div>-->
 	<!--<div class="row">	
 		<?php include('partials/facebook-notifications.html'); ?>					
 	</div>-->
