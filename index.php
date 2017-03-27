@@ -125,11 +125,11 @@
 			</div>
 		</div>
 	</section>
+	<!--
 	<div class="row">
 		<?php include 'partials/instagram-feed.php'; ?>
 		
 		<div class="col-md-2 col-md-offset-5">
-			
 			<div id="social-box">
 			<svg class="social-icon">
 				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
@@ -138,14 +138,13 @@
 			<a id="instagram-link" href="https://instagram.com/_hca_/">See more on Instagram</a>	
 		</div>
 	</div>
+	-->
 	<div class="row">
 		<h2>Holiness Christian Academy</h2>
 		<div id="hca-info" class="col-md-7 col-md-offset-1">
 			<img class="hca-logo" src="css/images/original-hca-logo.svg">
 			<p>Holiness Christian Academy was started as the vision of our pastor to give our public school kids a godly option for their education. We are now in our ninth year of K-12 education and we currently have as our primary curriculum the ACE program.</p> 
-
-<p>We are a small, very focused group that prides ourselves on a real Bible-based, distinctly-Christian program. With God's help we are shaping young lives for the service of the Lord. We offer a quality education along with a safe environment where young hearts can find God and His plan for their lives.</p>
-			
+			<p>We are a small, very focused group that prides ourselves on a real Bible-based, distinctly-Christian program. With God's help we are shaping young lives for the service of the Lord. We offer a quality education along with a safe environment where young hearts can find God and His plan for their lives.</p>
 		</div>
 		<div class="col-md-3">
 			<?php include 'partials/facebook-notifications.html'; ?>
